@@ -1,0 +1,183 @@
+body {
+    font-family: "Sawarabi Mincho";
+    color: #221d28;
+}
+
+.wf-sawarabimincho {
+    font-family: "Sawarabi Mincho";
+}
+
+.Yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-width: 395px;
+}
+
+header {
+    display: flex;
+    background-color: #d79f65;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+header>span:nth-child(1) {
+    flex: 0.2;
+    font-size: 1.4vw;
+}
+
+header>span.wf-sawarabimincho {
+    flex: 0.7;
+    font-size: 1.4vw;
+    word-break: break-word;
+}
+
+header>.header-small-cube {
+    background-color: #EDC2A1;
+    flex: 0.1;
+}
+
+main {
+    background-color: #A4AE7B;
+    font-size: 8vw;
+    line-height: 77%;
+    text-transform: uppercase;
+}
+
+.flag {
+    display: flex;
+}
+
+.flag .flag-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.flag .flag-wrap_japan {
+    padding: 25px 76px;
+    align-items: center;
+    align-self: center;
+}
+
+.flag .flag-wrap_japan .red-dot {
+    background-color: #BD212B;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.flag .flag-wrap__text {
+    background-color: #d79f67;
+    font-size: 10vw;
+    flex: 1;
+    text-align: center;
+    line-height: 1em;
+}
+
+.flag .flag-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.flag>div.flag-info>div:nth-child(1) {
+    background-color: #EBE3D8;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.5vw;
+}
+
+.flag>div.flag-info>div:nth-child(2) {
+    background-color: #cccad7;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    overflow: auto;
+    line-height: 100%;
+    letter-spacing: -0.1px;
+    justify-content: center;
+}
+
+section.img {
+    background-image: url(crop.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position-y: 56%;
+}
+
+.sub-text {
+    display: flex;
+}
+
+.sub-text>div:nth-child(1) {
+    background-color: #A4AE7B;
+    font-size: 1.8vw;
+    font-weight: 500;
+    padding: 20px 30px;
+    flex: 1.3;
+}
+
+.sub-text>div.watermark {
+    flex: 0.7;
+}
+
+.sub-text>div.watermark>div:nth-child(1) {
+    background-color: #EBE3D8;
+    padding: 13px 0 7px 10px;
+    font-size: 1.3vw;
+}
+
+section.sub-text>div:nth-child(1)>div,
+section.sub-text>div:nth-child(1)>div>div {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-text>div.watermark {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-text>div.watermark>div:nth-child(2) {
+    background-color: #CCCAD7;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5vw;
+}
+
+.circle-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    position: relative;
+}
+
+.circle-wrap .circle {
+    background-color: #EBC3A1;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    flex: 1;
+}
+
+footer {
+    background-color: #d79f65;
+    font-size: 19vw;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
